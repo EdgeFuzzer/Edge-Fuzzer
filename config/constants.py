@@ -20,8 +20,8 @@ DEFAULT_LOG_FILE_ST = "fuzz_log_st"
 DEFAULT_LOG_FILE_APP = "fuzz_log_app"
 
 # Default network configuration
-DEFAULT_HUB_IP = "192.168.1.199"
-DEFAULT_FUZZ_IP = "192.168.1.172"
+DEFAULT_HUB_IP = "192.168.1.100"
+DEFAULT_FUZZ_IP = "192.168.1.101"
 DEFAULT_FUZZ_PORT = "34567"
 
 # Default LLM models

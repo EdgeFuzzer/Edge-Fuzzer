@@ -233,7 +233,7 @@ def create_argument_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--test_file",
         type=str,
-        default="generate_cases_hf/fuzzing_cases/zdo/fuzzing_cases.json",
+        default="./fuzzing_cases/zdo/fuzzing_cases.json",
         help="Path to pre-generated test cases"
     )
     parser.add_argument(

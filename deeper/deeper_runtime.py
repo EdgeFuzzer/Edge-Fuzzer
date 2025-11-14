@@ -98,7 +98,7 @@ def generate_jsonl_for_conversion(
 
 
 def deeper_generate_jsonl(
-    api_source_folder: str = "generate_cases_hf/api_sources",
+    api_source_folder: str = "./api_sources",
     fuzzing_folder: str = "deeper/round1",
     log_folder: str = "logs/deeper/round1",
     output_jsonl_file: str = "deeper_batch_prompts_rd2.jsonl"
@@ -235,7 +235,7 @@ def run_command(
 
 
 def deeper_round(
-    api_source_folder: str = "generate_cases_hf/api_sources",
+    api_source_folder: str = "./api_sources",
     fuzzing_folder: str = "deeper/round1",
     log_folder: str = "logs/deeper/round1",
     output_folder: str = "deeper/round4",

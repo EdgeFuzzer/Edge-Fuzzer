@@ -173,8 +173,8 @@ Run fuzzing across multiple APIs and rounds:
 python main.py \
     --api_name zdo/mgmt_bind_request \
     --test_file fuzzing_cases/zdo/mgmt_bind_request-0from_values.json \
-    --hub_ip 192.168.1.199 \
-    --fuzz_ip 192.168.1.172 \
+    --hub_ip 192.168.1.100 \
+    --fuzz_ip 192.168.1.101 \
     --fuzz_port 34567 \
     --round 0 \
     --total_round 10 \
@@ -190,8 +190,8 @@ python main.py \
     --case_fuzzing True \
     --api_name zdo/mgmt_bind_request \
     --test_file fuzzing_cases/zdo/mgmt_bind_request.json \
-    --hub_ip 192.168.1.199 \
-    --fuzz_ip 192.168.1.172 \
+    --hub_ip 192.168.1.100 \
+    --fuzz_ip 192.168.1.101 \
     --fuzz_port 34567
 ```
 
