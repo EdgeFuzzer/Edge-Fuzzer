@@ -1,0 +1,31 @@
+# Core dependencies
+openai>=1.3.0
+requests
+psutil
+python-dotenv==1.0.0
+
+# LangChain and RAG support
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+
+# Document processing
+unstructured
+beautifulsoup4
+libmagic
+
+# Token counting
+tiktoken
+
+# HuggingFace support
+transformers
+torch
+
+# Anthropic Claude support
+anthropic
+
+# Tree-sitter for code parsing (optional)
+tree-sitter
+tree-sitter-languages
+
