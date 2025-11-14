@@ -1,7 +1,7 @@
 """
-LLMHubFuzzer - Main Entry Point
+EdgeFuzzer - Main Entry Point
 
-This is the main entry point for the LLMHubFuzzer framework.
+This is the main entry point for the EdgeFuzzer framework.
 It provides a command-line interface for running fuzzing operations.
 """
 
